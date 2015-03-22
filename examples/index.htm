@@ -3,12 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="picture-browser" content="images/test1, images/test2">
     <link rel="icon" type="image/png" href="assets/favicon.ico">
     <title>Picture Browser</title>
+
+    <style>
+      #picture-browser-photo {
+        float: left;
+        padding-right: 1rem;
+        width: 800px;
+      }
+
+      #picture-browser-list {
+        float: left;
+      }
+
+      #picture-browser-photo img {
+        max-width: 800px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      #picture-browser-list img {
+        width: 200px;
+      }
+      ul {  
+        margin: 0rem;
+        padding: 0rem;
+        height: 100%;
+      }
+
+      li { 
+        list-style-type: none;
+      }
+    </style>
   </head>
   <body>
     <h1>Example Picture Browser Page</h1>
-    <div id="picture-viewer">
+    <div id="picture-browser">
       <!-- Leave this empty -->
     </div>
   </body>
